@@ -1,9 +1,9 @@
-# {{package_name}}
+# @geek/retry
 
-[![{{package_name}}](https://img.shields.io/npm/v/{{package_name}}.png)](https://www.npmjs.com/package/{{package_name}})
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo={{repo_name}})](https://dependabot.com)
+[![@geek/retry](https://img.shields.io/npm/v/@geek/retry.png)](https://www.npmjs.com/package/@geek/retry)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/geek-retry)](https://dependabot.com)
 
-> {{package_description}}
+> Retry JavaScript functions and promises in Node.js and Axway Titanium
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
@@ -15,14 +15,14 @@
 
 ## 📝 Description
 
-{{package_description}}
+Retry JavaScript functions and promises in Node.js and Axway Titanium
 
 ## 🚀 Getting Started
 
-1. Install `{{package_name}}` in root of project
+1. Install `@geek/retry` in root of project
 
 ```bash
-npm install {{package_name}}
+npm install @geek/retry
 ```
 
 ## ✨Features
@@ -33,12 +33,12 @@ npm install {{package_name}}
 
 ## 📚Learn More
 
-- [{{package_name}} GitHub Repo](https://github.com/{{repo_name}})
-- [{{package_name}} npm page](https://npmjs.com/packages/{{package_name}})
+- [@geek/retry GitHub Repo](https://github.com/brentonhouse/geek-retry)
+- [@geek/retry npm page](https://npmjs.com/packages/@geek/retry)
 
 ## 📣 Feedback
 
-Have an idea or a comment?  [Join in the conversation here](https://github.com/{{repo_name}}/issues)! 
+Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/geek-retry/issues)! 
 
 ## ©️ Legal
 

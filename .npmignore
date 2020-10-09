@@ -6,6 +6,8 @@
 .dependabot
 .github
 
+tests
+
 tiapp.xml
 
 # OS Directories and Files
