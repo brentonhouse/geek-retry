@@ -1,6 +1,6 @@
 {
 	"name": "@geek/retry",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Retry JavaScript functions and promises in Node.js and Axway Titanium",
 	"main": "retry.js",
 	"scripts": {
