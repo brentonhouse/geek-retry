@@ -31,7 +31,6 @@ const retry = async (func, { retries = 5, delay = 1000, factor = 1 } = {}, { ret
 		return result;
 	}
 
-	// console.error(error);
 	logger.error(`🛑 error retrying function →`, error);
 
 	if (retries) {
