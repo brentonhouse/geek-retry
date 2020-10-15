@@ -1,14 +1,14 @@
 {
 	"name": "@geek/retry",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Retry JavaScript functions and promises in Node.js and Axway Titanium",
 	"main": "retry.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prep": "npm install --ignore-scripts && npm run list",
-		"prepublishOnly": "git pull && bump",
+		"prepublishOnly": "git pull && bump release",
 		"lint": "eslint . --fix",
-		"test": "echo \"no test specified\" && exit 0"
+		"test": "npm run prep"
 	},
 	"author": {
 		"name": "Brenton House",
@@ -47,13 +47,18 @@
 	],
 	"titanium": {},
 	"devDependencies": {
-		"@geek/logger": "^1.0.8",
 		"@titanium/eslint-config": "^0.0.18",
 		"bluebird": "^3.7.2",
-		"eslint": "^7.11.0",
+		"eslint": "^7.10.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.6.3",
+		"eslint-plugin-promise": "^4.2.1",
 		"fs-extra": "^9.0.1",
 		"lodash": "^4.17.20"
 	},
-	"dependencies": {},
+	"optionalDependencies": {
+		"@geek/logger": "^1.0.8",
+		"lodash": "^4.17.20"
+	},
 	"private": false
 }
