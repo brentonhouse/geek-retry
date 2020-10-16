@@ -8,7 +8,7 @@
 
 > Retry JavaScript functions and promises in Node.js and Axway Titanium
 
-* [�   &nbsp; Description](#--description)
+* [📓   &nbsp; Description](#--description)
 * [🚀   &nbsp; Getting Started](#--getting-started)
 * [✨  &nbsp; Features](#--features)
 * [🎓  &nbsp;  Learn More](#--learn-more)
